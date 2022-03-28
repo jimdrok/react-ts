@@ -9,6 +9,12 @@ export const TimerPadre = () => {
       <span>Millisefundos {milisegundos}</span>
 
       <br />
+
+      <button className='btn btn-outline-success'
+        onClick={() => setMilisegundos(500)}>
+        500
+      </button>
+
       <button className='btn btn-outline-success'
         onClick={() => setMilisegundos(1000)}>
         1000

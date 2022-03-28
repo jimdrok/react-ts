@@ -1,3 +1,4 @@
+import { ContadorReducer } from "./components/ContadorReducer";
 import { Counter } from "./components/Counter";
 import { TimerPadre } from "./components/TimerPadre";
 import { Usuario } from "./components/Usuario";
@@ -12,8 +13,11 @@ function App() {
       <Counter />
       <Usuario />
       <hr />
-      <h2>useEfect:</h2>
+      <h2>useEfect + useRef + Custom Props</h2>
       <TimerPadre />
+      <hr />
+      <h2>useReducer:</h2>
+      <ContadorReducer />
     </div>
   );
 }
